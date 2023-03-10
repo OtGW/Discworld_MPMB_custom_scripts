@@ -13,3 +13,15 @@
 	Code by:	OtGW (Zac Luchette) https://github.com/OtGW
 	Date:		2023-03-09 (sheet v13.1.4+221130)
 */
+
+var iFileName = "Source - Discworld Homebrew [by InnocentGoblin].js"
+RequiredSheetVersion("13.1.0")
+
+SourceList["DW"] = {
+  name: "Discworld",
+  abbreviation: "DW",
+  abbreviationSpellsheet: "D",
+  date: "2023/03/09",
+  campaignSetting: "Discworld",
+  url: "https://www.gmbinder.com/share/-MzzKRfU9Tvu2xCsJiRS",
+}
