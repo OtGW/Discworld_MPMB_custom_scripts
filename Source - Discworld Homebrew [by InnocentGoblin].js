@@ -9,7 +9,7 @@
 	Subject:	Source
 	Effect:		This script adds a Source to the MPMB character sheet sheet for the Discworld 5e D&D homebrew, for organizational and search purposes within the sheet.
 				The homebrew pdf upon which this Source is based was created by InnocentGoblin and is inspired by Discworld and the mind of Sir Terry Pratchett.			
-				It can be found here (https://www.gmbinder.com/share/-MzzKRfU9Tvu2xCsJiRS) 
+				The pdf can be found here (https://www.gmbinder.com/share/-MzzKRfU9Tvu2xCsJiRS) 
 	Code by:	OtGW (Zac Luchette) https://github.com/OtGW
 	Date:		2023-03-09 (sheet v13.1.4+221130)
 */
