@@ -48,7 +48,31 @@ RaceList["vampyr vampire"] = {
     "Vampyr Vampire (+2 Charisma, +1 Strength)\nSwarm: You gain a flying speed of 20ft, when you fly, you turn into a swarm of bats. Whilst in bat swarm form, you have no attack, may only move and people trying to hit you have advantage.\nDust: When you are reduced to 0 hit points, you turn into a pile of dust. Whilst you are dust, you have disadvantage on your saving throws. However, if someone drops blood into the pile of dust you are able to come back with full HP and 1 point of exhaustion. If this happens more than once per long rest, an addiction DC save must additionally be made upon each revival.\nBlood Sucking: you are addicted to the life force of others. As an action, you can suck the blood of a target within 5ft of you. When you suck a target's blood, you deal 1d6 piercing damage and heal as much damage as you deal. As a Vampyr you must feed at least once a day, if you do not feed, you gain a point of exhaustion.\nSunlight Sensitivity: Whilst in direct sunlight you have disadvantage on attack rolls and saving throws.",
 }
 
-RaceList["temperance vampire"] = {}
+RaceList["temperance vampire"] = {
+  regExpSearch: /^(?=.*temperance)(?=.*vampire).*$/i,
+  name: "Temperance Vampire",
+  sortname: "Vampire, Temperance",
+  source: ["DW", 9],
+  plural: "Temperance Vampires",
+  size: 3,
+  speed: {
+    walk: { spd: 30, enc: 20 },
+    fly: { spd: 20, enc: 0 },
+  },
+  languageProfs: ["Common", 1],
+  weapons: ["Suck Blood"],
+  vision: [
+    ["Darkvision", 60],
+    ["Sunlight Sensitivity", 0],
+  ],
+  age: "Vampires are practically immortal in terms of age, your vampirism will allow you to avoid death by old age.",
+  height:
+    "Vampires are the same size as Humans, they range from 5 to 6ft tall.",
+  improvements: "Temperance Vampire: +2 Charisma, +1 Intelligence;",
+  scores: [0, 0, 0, 1, 0, 2],
+  trait:
+    "Temperance Vampire (+2 Charisma, +1 Intelligence)\nSwarm: You gain a flying speed of 20ft, when you fly, you turn into a swarm of bats. Whilst in bat swarm form, you have no attack, may only move and people trying to hit you have advantage.\nDust: When you are reduced to 0 hit points, you turn into a pile of dust. Whilst you are dust, you have disadvantage on your saving throws. However, if someone drops blood into the pile of dust you are able to come back with full HP and 1 point of exhaustion. If this happens more than once per long rest, an addiction DC save must additionally be made upon each revival.\nAddiction: You have replaced your blood addiction for another. Choose something to be addicted to, no matter how arbitrary. You must experience what you are addicted to at least once per day, if you do not roll 1d20. If you roll a 11 or higher you gain a point of exhaustion, if you roll a 10 or lower you begin craving blood, until you experience your secondary addiction you must succeed a DC15 Constitution saving throw everytime you see blood or suck the blood of the person closest to you.\nSunlight Sensitivity: Whilst in direct sunlight you have disadvantage on attack rolls and saving throws.",
+}
 
 WeaponsList["suck blood"] = {
   regExpSearch: /^(?=.*suck)(?=.*blood).*$/i,
