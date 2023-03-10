@@ -38,6 +38,7 @@ CreatureList["the luggage"] = {
       name: "Bite",
       ability: 1,
       damage: [2, 10, "piercing"],
+      abilitytodamage: false,
       range: "Melee (5 ft)",
       description:
         "If the target is medium or smaller in size and is killed by this, The Luggage will swallow and devour the creature.",
